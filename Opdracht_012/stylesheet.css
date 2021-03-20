@@ -1,0 +1,61 @@
+/*.navbar .first a:hover{
+    background-color:lightblue;
+}
+..navbar .second a:active{
+   color:red;
+   font-style: italic;
+}
+
+.navbar .third a:visited{
+    color:yellow;
+ }
+
+ form input:focus{
+    color:green;
+    font-size: 20px;
+ }
+*/
+.container{
+    width:100%;
+    margin: 0 auto;
+}
+
+.narsbar{
+    font-size: 2rem;
+    background-color: darkblue;
+}
+ 
+.narsbar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.narsbar ul li{
+    cursor:pointer;
+    padding:0.5rem;
+    
+    
+}
+
+.narsbar ul li:hover{
+    background-color:lightblue;
+    color:white;
+
+}
+
+.narsbar ul li a{
+    text-decoration: none;
+   
+}
+
+.narsbar li:first-child{
+    padding-left:0;
+}
+
+.currentPage{
+    background-color: aquamarine;
+}
+ 
